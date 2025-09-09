@@ -27,11 +27,9 @@ O código principal está no arquivo [`main.py`](main.py).
 ### Software
 - Python **3.8+** (Linux ou Windows).
 - Bibliotecas necessárias:
-  ```bash
   pip install torch transformers qi
-````
 
-> ⚠️ **Observação:** o modelo TinyLlama requer GPU (CUDA) para melhor desempenho. Em CPU, a execução pode ser lenta.
+⚠️ **Observação:** o modelo TinyLlama requer GPU (CUDA) para melhor desempenho. Em CPU, a execução pode ser lenta.
 
 ---
 
@@ -39,34 +37,24 @@ O código principal está no arquivo [`main.py`](main.py).
 
 1. Clone este repositório:
 
-   ```bash
    git clone https://github.com/vitor-souza-ime/tlnao.git
    cd tlnao
-   ```
 
 2. Configure o IP do seu NAO no arquivo [`main.py`](main.py), na função `main()`:
 
-   ```python
    NAO_IP = "172.15.1.29"  # altere para o IP do seu robô
-   ```
 
 3. Execute o programa:
 
-   ```bash
    python main.py
-   ```
 
 4. O NAO dará uma saudação inicial e aguardará sua fala.
    Fale em inglês e aguarde a resposta.
-
----
 
 ## 🧪 Exemplo de Uso
 
 * Usuário: *"Hello robot, how are you today?"*
 * NAO (via TinyLlama): *"I'm doing great. How about you?"*
-
----
 
 ## 📂 Estrutura do Projeto
 
